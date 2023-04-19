@@ -1,5 +1,5 @@
 import assert from "assert";
-import detectPatterns from '../src/index'
+import detectPatterns from '../src/index.js'
 
 assert.deepEqual(detectPatterns("333.bit"), new Set(["AAA", "999"]));
 assert.deepEqual(detectPatterns("2112.bit"), new Set(["ABBA", "10K"]));
@@ -14,3 +14,5 @@ assert.deepEqual(
   detectPatterns("0311.bit"),
   new Set(["ABCC", "0XXX", "10K", "MMDD"])
 );
+
+console.log('Passed all tests!!!')
