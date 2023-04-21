@@ -6,7 +6,6 @@
 $ git@github.com:frmachao/code-test-bit.git
 $ cd code-test-bit
 $ yarn install
-$ yarn get:data
 $ yarn test
 ```
 
